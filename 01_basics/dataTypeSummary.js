@@ -18,6 +18,7 @@ It has 3Types :-
 ~ Object : It is used to store key-value pair.
 ~ Functions : A Functions is a block of reusable code designed to perform some specific task. 
 In javascript we can treated function as a variable
+
 */
 
 const herosarry = ["Shaktiman", "SonPari", "Hatim"]
@@ -29,3 +30,34 @@ const myfunction = function(){
     console.log("Hello jay");
     
 }
+
+/*
+***********************************************************************************************************************************
+Stack :- All primitive datatypes.
+heap :- All non primitive datatypes.
+*/
+let myName = "Jay Kumar Dayma"
+
+anotherName = "Jatin Dayma"
+
+anotherName = myName  
+console.log(anotherName);
+
+console.log(myName);
+
+
+let userOne = {
+email : "jaykumardayma@gmail.com",
+address : "patelNagar"
+}
+
+let userTwo = {
+    email : "jaykhatik472@gmail.com",
+    address: "Bapunagar"
+}
+
+userTwo = userOne
+
+console.log(userTwo);
+console.log(userTwo);
+
